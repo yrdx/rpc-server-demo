@@ -1,0 +1,3 @@
+# rpc-server-demo
+基于socket，写一个超简单的rpc框架，主要是理解rpc框架设计的思路
+此demo分为provider和consumer两个端，provider通过socket负责将服务暴露出来，consumer通过代理的方式，请求服务端资源
